@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Calibri', 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.header .contact {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Summary */
+.summary {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Single Column Layout */
+.content-wrapper {
+  display: block;
+}
+
+.left-column,
+.right-column {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Job Entry */
+.job {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.job-date {
+  font-weight: bold;
+  color: #555;
+  text-align: right;
+}
+
+.job-company {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.job-responsibilities {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.job-responsibilities li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+  color: #555;
+  padding-left: 15px;
+  position: relative;
+}
+
+.job-responsibilities li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333;
+}
+
+/* Education */
+.education-item {
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.education-degree {
+  font-weight: bold;
+  color: #333;
+}
+
+.education-years {
+  font-weight: bold;
+  color: #555;
+}
+
+.education-school {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.education-details {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 15px;
+  font-size: 11px;
+}
+
+.education-details li {
+  margin-bottom: 3px;
+  color: #666;
+}
+
+/* Skills */
+.skills-section {
+  font-size: 12px;
+}
+
+.skill-item {
+  margin-bottom: 8px;
+}
+
+.skill-category {
+  font-weight: bold;
+  color: #333;
+  display: inline;
+}
+
+.skill-content {
+  color: #555;
+  display: inline;
+}
+
+/* Certifications */
+.certifications {
+  font-size: 12px;
+}
+
+.cert-item {
+  margin-bottom: 6px;
+  color: #555;
+  padding-left: 15px;
+  position: relative;
+}
+
+.cert-item:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .job {
+    page-break-inside: avoid;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .job-header {
+    flex-direction: column;
+  }
+
+  .job-date {
+    text-align: left;
+    margin-top: 5px;
+  }
+
+  .education-header {
+    flex-direction: column;
+  }
+
+  .education-years {
+    margin-top: 3px;
+  }
+}

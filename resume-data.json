@@ -1,0 +1,78 @@
+{
+  "personalInfo": {
+    "name": "Sneha Gursale",
+    "location": "Abu Dhabi, UAE",
+    "email": "sneha.gursale2000@gmail.com",
+    "phone": "+971-56 188 7323",
+    "linkedin": "LinkedIn"
+  },
+  "summary": "With 5+ years of experience in cloud and infrastructure engineering across fintech and telecom industries, bringing hands-on background in monitoring real-time transaction systems, resolving production incidents, and supporting cloud-hosted services on Microsoft Azure. Experienced in CI/CD pipelines, Infrastructure as Code, and container-based deployments through professional experience at AMDOCS (AT&T) and Worldline.",
+  "workExperience": [
+    {
+      "jobTitle": "Associate Consultant — Application Support",
+      "company": "Worldline Global Services - Card and Payments",
+      "startDate": "Feb 2024",
+      "endDate": "Feb 2026",
+      "responsibilities": [
+        "Monitored real-time payment transaction flows across Bancontact, Visa and Mastercard schemes using Grafana dashboards, resolved bank and customer-reported incidents in ServiceNow (SNOW) by referencing ISO 8583 error codes and scheme manuals, reducing escalations to senior engineers for recurring transaction failures.",
+        "To maintain service availability within PCI-DSS compliance boundaries, responded to HP-Nonstop Pathway process failure alerts in PagerDuty and performed process restarts and recovery actions through the OSS environment and COBOL-based operational screens.",
+        "Participated in Azure DevOps CI/CD pipeline operations for containerized application deployments, monitoring pipeline stages, flagging failures, and coordinating with the platform team to ensure smooth releases across Dev, Test, and Production environments.",
+        "To ensure operational continuity of application services, supported Docker container health monitoring by reviewing container logs, checking runtime status, and escalating anomalies to the platform team for resolution.",
+        "Assisted in maintaining Kubernetes workload health for operational services, monitoring pod status and participating in restart and recovery procedures during service degradation incidents."
+      ]
+    },
+    {
+      "jobTitle": "Technical and Business Operations Analyst",
+      "company": "AMDOCS (AT&T) - Telecom",
+      "startDate": "Aug 2020",
+      "endDate": "Nov 2023",
+      "responsibilities": [
+        "To support cloud cost efficiency, participated in Cost Resource Optimization (CRO) reviews using the Astra cloud management portal, identifying idle VMs and flagging right-sizing opportunities, contributing to an ~18% reduction in infrastructure costs.",
+        "Supported existing Azure DevOps CI/CD pipelines for infrastructure provisioning and application deployments across Dev, Test, and Production environments, participating in deployment runs, maintaining approval gate configurations, and coordinating rollback procedures to ensure reliable releases.",
+        "Assisted in migrating 20+ application hosts to RHEL 8.8 with zero downtime, validating Docker container host compatibility and verifying Connect: Direct service continuity following each OS upgrade.",
+        "Managed and maintained Azure resources including VMs, Web Apps, and Storage Accounts through the Azure Portal, performing configuration updates, VM snapshots, and sanity checks across Dev, Test, and Production environments.",
+        "Collaborated with development teams on change requests and release planning, coordinating infrastructure changes and validating environment readiness to support smooth and timely deployments.",
+        "Monitored SLAs, SLOs, and SLIs via Azure Monitor, participated in root cause analysis for production outages, and contributed to fix documentation that supported 99.95% uptime across managed services."
+      ]
+    },
+    {
+      "jobTitle": "Cloud Engineer Intern",
+      "company": "IndiaTechSoft",
+      "startDate": "Dec 2019",
+      "endDate": "May 2020",
+      "responsibilities": [
+        "Maintained health of development environments in the Azure Portal, monitoring disk space and system logs to ensure stable working environments for the engineering team.",
+        "To enable rapid incident response, monitored application uptime and performance using the Azure Monitor dashboard, identifying service interruptions, and notifying senior engineers for immediate action.",
+        "Reduced onboarding time for new team members by documenting local environment setup procedures and common troubleshooting steps, creating a reusable reference guide adopted across the team."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Computer Science",
+      "school": "University",
+      "years": "2018 – 2020"
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "school": "University",
+      "years": "2015 – 2018"
+    }
+  ],
+  "certifications": [
+    "AZ-900 — Microsoft Azure Fundamentals",
+    "AZ-104 — Microsoft Azure Administrator Associate",
+    "AZ-400 — Microsoft Azure DevOps Engineer Expert"
+  ],
+  "skills": {
+    "Cloud Platforms": "Microsoft Azure (Compute, Networking, Storage, Database, Identity)",
+    "Containers & Kubernetes": "Docker, Kubernetes (AKS), Helm, Horizontal Pod Autoscaling (HPA), Namespaces, RBAC, Resource Limits, KEDA",
+    "CI/CD & IaC": "Terraform, Ansible, Azure DevOps Pipelines, GitHub Actions",
+    "Monitoring & Alerting": "Prometheus, Grafana, Azure Monitor, Log Analytics, PagerDuty, Incident Management",
+    "Security & Compliance": "PCI-DSS, SSL/TLS, IAM, Secrets Management, Firewall, Patch management",
+    "Scripting & Languages": "Bash, Python, Shell Scripting, SQL, YAML",
+    "Operating Systems": "Linux/Unix, Windows",
+    "Version Control": "GitHub, Azure Repos (branching strategies, PR workflows, code quality gates)",
+    "Tools & Platforms": "Jira, Confluence, ServiceNow (SNOW), AOTS, TWS, MobaXterm/PuTTY, FileZilla"
+  }
+}
